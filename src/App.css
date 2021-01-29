@@ -1,0 +1,74 @@
+.inputs button{
+  border:none;
+  width: 150px;
+  height:50px;
+  background:cornsilk;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.inputs{
+  background:skyBlue;
+
+  height: 400px;
+ width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column; 
+}
+.inputs input{
+  height: 50px;
+  width: 200px;
+  font-size: 40px;
+  margin: 10px;
+  padding-left: 10px;
+}
+ 
+.App{
+  display: flex;
+
+  height:20vh; 
+  flex-direction: column;
+}
+.item{
+  width: 600px;
+  height: 60px;
+  background-color: #13a90b;
+  font-family: impact;
+  text-align: center;
+  color: antiquewhite;
+  margin: 10px;
+  display: flex;
+}
+.item p{
+  justify-content: center;
+  text-align: center;
+ margin-left:15px ;
+ font-size: 1.5em;
+ line-height: 30px;
+}
+.listAll{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.containerList{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.containerList button{
+  border:none;
+color: white;
+  display: flex;
+  background-color: #13a90b;
+  flex-direction:row;
+  margin: 5px;
+  padding: 10px;
+}
